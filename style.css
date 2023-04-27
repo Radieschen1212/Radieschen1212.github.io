@@ -1,0 +1,21 @@
+html,body {font-family: sans-serif;}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    transition: all;
+    transition-duration: 500ms;
+}
+
+.image:hover {
+    transform: rotate(1turn);
+    scale: 1.3;
+}
