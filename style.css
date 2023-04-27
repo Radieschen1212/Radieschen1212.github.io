@@ -12,7 +12,7 @@ html,body {font-family: sans-serif;}
     overflow: hidden;
     object-fit: cover;
     transition: all;
-    transition-duration: 500ms;
+    transition-duration: 3s;
 }
 
 .image:hover {
